@@ -1,0 +1,34 @@
+
+[
+  {
+    "title": "Personal PortFolio",
+    "img": "/Projects/portfolio.jpg",
+    "description": "This is the Source code of my first portfolio which i made using React js material ui and sass",
+    "url": "https://famous-bavarois-171311.netlify.app/"
+  },
+  {
+    "title": "Github Profile finder",
+    "img":  "/Projects/Video.jpg",
+    "description": "With the help of this project you can find anyone github profile entering User name",
+    "url": "https://65a8c029ec9a243be0b0437d--steady-travesseiro-7a9754.netlify.app/"
+  },
+  {
+    "title": "Bhagavad Geeta",
+    "img":  "/Projects/front.jpg",
+    "description": "This is the Bhagavad Geeta Book Project which i made using React js it has chapter 1 and verse 8 and i will add more verse and chapter after some times and it is not responsive for mobile device",
+    "url": "https://65ae1c39f20cd1083a767558--cozy-tapioca-a555f0.netlify.app/"
+  },
+    {
+      "title": "Weather Forcast",
+      "img": "/Projects/Weather forcast.jpg",
+      "description": "As part of my final year project for my MSc in Information Technology, I have developed a cutting-edge weather forecast application",
+      "url": "https://graceful-bunny-2777b4.netlify.app/"
+    },
+    {
+      "title": "Dummy Website",
+      "img":  "/Projects/itCompany.jpg",
+      "description": "Designed and implemented a comprehensive dummy website for an imaginary IT solutions company, Developed a responsive and user-friendly interface ensuring optimal viewing experiences across various devices, including desktops, tablets, and mobile",
+      "url": "https://first-prqld1dzb-mohit-bhandaris-projects.vercel.app/service"
+    }
+  ]
+  

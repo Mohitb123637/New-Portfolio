@@ -1,0 +1,90 @@
+.home {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-image: url("/public/mountains.png");
+  overflow: hidden; // Ensure overflow is hidden to prevent the background from leaking
+  background-size: cover;
+  scroll-behavior: smooth;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .container1 {
+    background-image: url("/public/sun.png");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    .socialMedia {
+        display: flex;
+      gap: 1.2rem;
+      margin-bottom: 20px;
+
+      a {
+        img {
+          width: 40px; // Adjust the size as needed
+          height: 40px;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 1.2rem;
+
+      @media screen and (min-width: 768px) {
+        font-size: 32px;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 1rem;
+
+      @media screen and (min-width: 768px) {
+        font-size: 18px;
+      }
+    }
+
+    .buttons {
+      display: flex;
+      gap: 2.2rem;
+      background-color: transparent;
+      border: none;;
+      margin-top: 1rem;
+
+      button {
+        padding: 10px;
+        background-color: #48a5e4;
+        font-size: 1rem;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #1e6798;
+        }
+      }
+    }
+  }
+
+}
+
+
+
+
+.typewriterpara{
+  color: rgb(75, 17, 79);
+  font-size: 1.4rem;
+  font-family: serif;
+}
