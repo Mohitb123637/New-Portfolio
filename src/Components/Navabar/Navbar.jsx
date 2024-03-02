@@ -1,9 +1,9 @@
 // Navbar.jsx
 
-import React, { useEffect, useState } from "react";
-import { IoMenu, IoClose } from "react-icons/io5";
-import { Link, useLocation } from "react-router-dom";
-import "./navbar.scss"; // Import your SCSS file
+import { useEffect, useState } from 'react';
+import { IoMenu, IoClose } from 'react-icons/io5';
+import { Link, useLocation } from 'react-router-dom';
+import './navbar.scss'; //
 
 const Navbar = () => {
   const location = useLocation();
@@ -16,10 +16,10 @@ const Navbar = () => {
       setIsSticky(offset > 0);
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
@@ -28,31 +28,45 @@ const Navbar = () => {
   };
 
   const handleNavItemClick = () => {
-    // Close the mobile navigation when a navigation item is clicked
     setClicked(false);
   };
 
   return (
-    <div className={`navbar ${isSticky ? "sticky" : ""}`}>
+    <div className={`navbar ${isSticky ? 'sticky' : ''}`}>
       <div className="wrapper">
         <span>
           <Link to="/">MB</Link>
         </span>
-        <nav className={`nav-items ${clicked ? "visible" : "hidden"}`}>
+        <nav className={`nav-items ${clicked ? 'visible' : 'hidden'}`}>
           <ul>
-            <li onClick={handleNavItemClick} className={location.pathname === "/" ? "active" : ""}>
+            <li
+              onClick={handleNavItemClick}
+              className={location.pathname === '/' ? 'active' : ''}
+            >
               <Link to="/">Home</Link>
             </li>
-            <li onClick={handleNavItemClick} className={location.pathname === "/about" ? "active" : ""}>
+            <li
+              onClick={handleNavItemClick}
+              className={location.pathname === '/about' ? 'active' : ''}
+            >
               <Link to="/about">About</Link>
             </li>
-            <li onClick={handleNavItemClick} className={location.pathname === "/skills" ? "active" : ""}>
+            <li
+              onClick={handleNavItemClick}
+              className={location.pathname === '/skills' ? 'active' : ''}
+            >
               <Link to="/skills">Skills</Link>
             </li>
-            <li onClick={handleNavItemClick} className={location.pathname === "/projects" ? "active" : ""}>
+            <li
+              onClick={handleNavItemClick}
+              className={location.pathname === '/projects' ? 'active' : ''}
+            >
               <Link to="/projects">Projects</Link>
             </li>
-            <li onClick={handleNavItemClick} className={location.pathname === "/contact" ? "active" : ""}>
+            <li
+              onClick={handleNavItemClick}
+              className={location.pathname === '/contact' ? 'active' : ''}
+            >
               <Link to="/contact">Contact</Link>
             </li>
           </ul>
@@ -60,7 +74,7 @@ const Navbar = () => {
         <div id="mobile">
           <i
             id="bar"
-            className={clicked ? "close-icon" : "menu-icon"}
+            className={clicked ? 'close-icon' : 'menu-icon'}
             onClick={clickedNav}
           >
             {clicked ? <IoClose /> : <IoMenu />}

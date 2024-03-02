@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Salsa&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Salsa&display=swap');
 
 body {
-  transition: filter 1s; /* Add a transition for a smoother effect */
+  transition: filter 1s;
 }
 
 .navbar {
@@ -95,19 +95,21 @@ body.sticky-nav-padding {
 }
 
 @media screen and (max-width: 769px) {
-  .container{
-    flex-direction: column;
-    align-items: flex-start; 
+  .nav-items {
+    display: flex;
+    flex-direction: column !important;
+    align-items: start;
     position: fixed;
     top: 70px;
-    left: -300px; 
-    width: 300px;
+    left: -300px;
+    width: 60%;
     height: 100vh;
-    background-color: #323336;
-    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    background-color: #080808d5;
+    box-shadow: 0 40px 60px rgba(51, 51, 51, 0.1);
     padding: 40px 0 0 10px;
     opacity: 0;
-    transition: opacity 0.5s ease, left 0.5s ease; 
+    transform: translateX(-100%);
+    transition: transform 1s ease;
 
     ul {
       flex-direction: column;
@@ -116,6 +118,7 @@ body.sticky-nav-padding {
     > ul > li {
       text-align: left;
       margin-bottom: 35px;
+      font-size: 1.5rem;
     }
 
     a {
@@ -124,12 +127,15 @@ body.sticky-nav-padding {
 
     &.visible {
       opacity: 1;
-      left: 0; /* Final state on the screen */
+      transform: translateX(0%);
+      left: 0;
     }
 
     &.hidden {
       opacity: 0;
-      left: -300px; /* Move off the screen */
+      transform: translateX(-100%);
+      left: -300px;
+      pointer-events: none;
     }
   }
 

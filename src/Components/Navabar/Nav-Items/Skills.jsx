@@ -1,7 +1,7 @@
-import "../NavItemsStyle/skills.scss";
-import { FaHtml5, FaGithub, FaGit } from "react-icons/fa6";
-import { FaCss3, FaNode, FaReact, FaBootstrap } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
+import '../NavItemsStyle/skills.scss';
+import { FaHtml5, FaGithub, FaGit } from 'react-icons/fa6';
+import { FaCss3, FaNode, FaReact, FaBootstrap } from 'react-icons/fa';
+import { IoLogoJavascript } from 'react-icons/io5';
 import {
   SiExpress,
   SiTailwindcss,
@@ -10,7 +10,7 @@ import {
   SiVisualstudio,
   SiVercel,
   SiPostman,
-} from "react-icons/si";
+} from 'react-icons/si';
 
 const Skills = () => {
   return (
@@ -22,38 +22,38 @@ const Skills = () => {
           <h3>HTML</h3>
           <FaHtml5 />
           <h3>CSS </h3>
-          <FaCss3 /> 
+          <FaCss3 />
           <h3>Tailwind</h3>
           <SiTailwindcss />
           <h3>Bootstrap</h3>
           <FaBootstrap />
           <h3>JavaScript</h3>
-          <IoLogoJavascript/> 
+          <IoLogoJavascript />
           <h3>React</h3>
-          <FaReact/>
+          <FaReact />
         </div>
         <div className="backend">
           <h1>Backend</h1>
           <h3>Node Js</h3>
-          <FaNode/>
+          <FaNode />
           <h3>Express Js</h3>
-          <SiExpress/>
+          <SiExpress />
           <h3>Mongo Db</h3>
-          <SiMongodb/>
+          <SiMongodb />
           <h3>Fire Base</h3>
-          <SiFirebase/>
+          <SiFirebase />
         </div>
-         <div className="tools">
+        <div className="tools">
           <h1>Tools I use</h1>
-           <h3>Git</h3>
-           <FaGit/>
-           <h3>Github</h3>
-           <FaGithub/>
-           <h3>Vercel</h3>
-           <SiVercel/>
-           <h3>Postman</h3>
-           <SiPostman/>
-         </div>
+          <h3>Git</h3>
+          <FaGit />
+          <h3>Github</h3>
+          <FaGithub />
+          <h3>Vercel</h3>
+          <SiVercel />
+          <h3>Postman</h3>
+          <SiPostman />
+        </div>
       </div>
     </div>
   );
