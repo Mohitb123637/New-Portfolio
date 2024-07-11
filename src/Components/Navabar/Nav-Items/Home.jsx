@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { motion } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
-import CV from '../Data/CV.pdf';
+import CV from '../Data/Mohit CV.pdf';
 import '../NavItemsStyle/home.scss';
 
 const Home = () => {
