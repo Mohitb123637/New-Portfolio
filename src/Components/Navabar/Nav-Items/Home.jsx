@@ -71,7 +71,7 @@ const Home = () => {
               fontFamily: 'serif',
             }}
           >
-            I'M MOHIT BHANDARI
+            I'M MOHIT BHANDARI ji
           </h1>
         </motion.h1>
         <Typewriter
