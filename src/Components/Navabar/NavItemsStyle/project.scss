@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 
 .project-container {
   display: flex;
@@ -23,7 +23,7 @@
 
   h1 {
     font-size: 2rem;
-    font-family: "Nothing You Could Do", cursive;
+    font-family: 'Nothing You Could Do', cursive;
     color: rgb(253, 242, 220);
     letter-spacing: 0.3rem;
     text-shadow: 1px 1px 3px rgba(212, 243, 78, 0.999);
@@ -95,7 +95,7 @@
     h1 {
       font-size: 1.6rem;
       margin: 1.5rem;
-      font-family: "Dancing Script", cursive;
+      font-family: 'Dancing Script', cursive;
       color: rgb(253, 242, 220);
       letter-spacing: 0.3rem;
       text-shadow: 1px 1px 3px rgba(239, 132, 74, 0.892);
@@ -117,7 +117,7 @@
       font-size: 1.2rem;
       margin-bottom: 1rem;
       text-align: center;
-      font-family: "Dancing Script", cursive;
+      font-family: 'Dancing Script', cursive;
       letter-spacing: 2px;
       color: rgba(255, 255, 255, 0.823);
       font-weight: 500;
@@ -209,39 +209,38 @@
 }
 
 @media (max-width: 300px) {
-  .project-container{
- overflow: hidden;
- 
-  .box1 {
-    // display: flex;
-    // align-items: center;
+  .project-container {
+    overflow: hidden;
 
-    button {
-      // display: none;
-    }
+    .box1 {
+      // display: flex;
+      // align-items: center;
 
-    .box2 {
-
-      width: 85vw;
-      height: 350px;
-      margin: 2rem;
-      padding: 1rem;
-      h1 {
-        font-size: 1.2rem;
-        text-wrap: nowrap;
+      button {
+        // display: none;
       }
 
-      img {
-        width: 180px;
-        height: 150px;
-      }
-      p{
-        font-size: .8rem;
-      }
-      a{
-        font-size: 1.2rem;
+      .box2 {
+        width: 85vw;
+        height: 350px;
+        margin: 2rem;
+        padding: 1rem;
+        h1 {
+          font-size: 1.2rem;
+          text-wrap: nowrap;
+        }
+
+        img {
+          width: 180px;
+          height: 150px;
+        }
+        p {
+          font-size: 0.8rem;
+        }
+        a {
+          font-size: 1.2rem;
+        }
       }
     }
   }
-}
 }

@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,500&display=swap");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
 
 .main {
   // background: linear-gradient(to bottom, rgb(244, 174, 238),  #a804ab, #15061c);
@@ -20,7 +20,7 @@
     margin: 4rem;
     text-align: left;
     height: auto;
-    font-family: "Dancing Script", cursive;
+    font-family: 'Dancing Script', cursive;
 
     .aboutme {
       width: 60%;
@@ -31,7 +31,7 @@
         color: #415fc1;
         font-weight: 500;
         margin-bottom: 2rem;
-        font-family: "Dancing Script", cursive;
+        font-family: 'Dancing Script', cursive;
         letter-spacing: 0.3rem;
         text-shadow: 1px 1px 3px rgba(212, 243, 78, 0.999);
       }
@@ -100,7 +100,7 @@
       letter-spacing: 0.3rem;
       text-shadow: 1px 1px 3px rgba(212, 243, 78, 0.999);
       margin: 2rem;
-      font-family: "Dancing Script", cursive;
+      font-family: 'Dancing Script', cursive;
       letter-spacing: 0.3rem;
     }
 

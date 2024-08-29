@@ -10,49 +10,82 @@ import {
   SiVisualstudio,
   SiVercel,
   SiPostman,
+  SiNextdotjs,
 } from 'react-icons/si';
 
 const Skills = () => {
   return (
-    <div>
+    <div className="skills-wrapper">
       <h1 className="heading">Skills</h1>
       <div className="skills-container">
-        <div className="frontend">
-          <h1>Frontend</h1>
-          <h3>HTML</h3>
-          <FaHtml5 />
-          <h3>CSS </h3>
-          <FaCss3 />
-          <h3>Tailwind</h3>
-          <SiTailwindcss />
-          <h3>Bootstrap</h3>
-          <FaBootstrap />
-          <h3>JavaScript</h3>
-          <IoLogoJavascript />
-          <h3>React</h3>
-          <FaReact />
+        <div className="skills-section frontend">
+          <h2 className="section-title">Frontend</h2>
+          <div className="skill-item">
+            <FaHtml5 />
+            <h3>HTML</h3>
+          </div>
+          <div className="skill-item">
+            <FaCss3 />
+            <h3>CSS</h3>
+          </div>
+          <div className="skill-item">
+            <SiTailwindcss />
+            <h3>Tailwind</h3>
+          </div>
+          <div className="skill-item">
+            <FaBootstrap />
+            <h3>Bootstrap</h3>
+          </div>
+          <div className="skill-item">
+            <IoLogoJavascript />
+            <h3>JavaScript</h3>
+          </div>
+          <div className="skill-item">
+            <FaReact />
+            <h3>React</h3>
+          </div>
+          <div className="skill-item">
+            <SiNextdotjs />
+            <h3>Next.js</h3>
+          </div>
         </div>
-        <div className="backend">
-          <h1>Backend</h1>
-          <h3>Node Js</h3>
-          <FaNode />
-          <h3>Express Js</h3>
-          <SiExpress />
-          <h3>Mongo Db</h3>
-          <SiMongodb />
-          <h3>Fire Base</h3>
-          <SiFirebase />
+        <div className="skills-section backend">
+          <h2 className="section-title">Backend</h2>
+          <div className="skill-item">
+            <FaNode />
+            <h3>Node.js</h3>
+          </div>
+          <div className="skill-item">
+            <SiExpress />
+            <h3>Express.js</h3>
+          </div>
+          <div className="skill-item">
+            <SiMongodb />
+            <h3>MongoDB</h3>
+          </div>
+          <div className="skill-item">
+            <SiFirebase />
+            <h3>Firebase</h3>
+          </div>
         </div>
-        <div className="tools">
-          <h1>Tools I use</h1>
-          <h3>Git</h3>
-          <FaGit />
-          <h3>Github</h3>
-          <FaGithub />
-          <h3>Vercel</h3>
-          <SiVercel />
-          <h3>Postman</h3>
-          <SiPostman />
+        <div className="skills-section tools">
+          <h2 className="section-title">Tools I Use</h2>
+          <div className="skill-item">
+            <FaGit />
+            <h3>Git</h3>
+          </div>
+          <div className="skill-item">
+            <FaGithub />
+            <h3>GitHub</h3>
+          </div>
+          <div className="skill-item">
+            <SiVercel />
+            <h3>Vercel</h3>
+          </div>
+          <div className="skill-item">
+            <SiPostman />
+            <h3>Postman</h3>
+          </div>
         </div>
       </div>
     </div>
