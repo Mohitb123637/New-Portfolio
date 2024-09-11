@@ -1,5 +1,11 @@
 [
   {
+    "title": "Voting App wit Ai Features",
+    "img": "/Projects/voting.png",
+    "description": "VoteAI is a MERN-based voting app where users securely vote using their Aadhar card, view real-time vote counts, and interact with an integrated AI chatbot. Admins manage candidates without voting rights",
+    "url": "https://mern-voting.netlify.app/"
+  },
+  {
     "title": "Personal PortFolio",
     "img": "/Projects/portfolio.jpg",
     "description": "This is the Source code of my first portfolio which i made using React js material ui and sass",
