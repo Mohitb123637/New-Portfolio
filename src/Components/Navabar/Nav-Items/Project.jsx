@@ -19,21 +19,10 @@ const Project = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const [isLightOn, setIsLightOn] = useState(false);
-
-  const handleLightToggle = () => {
-    setIsLightOn((isLightOn) => !isLightOn);
-  };
-
   return (
-    <div
-      className={`project-container ${isLightOn ? 'light-off' : 'light-on'}`}
-    >
+    <div className={`project-container `}>
       <div className="title">
         <h1>Projects</h1>
-        <button className="btn" onClick={handleLightToggle}>
-          {!isLightOn ? 'Dark' : 'Light'}
-        </button>
       </div>
       <div className="box1">
         <button onClick={prevIndex}>Prev</button>

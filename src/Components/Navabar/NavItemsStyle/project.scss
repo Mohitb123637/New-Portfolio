@@ -8,18 +8,11 @@
   box-shadow: 0 10px 20px rgba(248, 246, 246, 0.904);
   background-repeat: no-repeat;
   background-size: cover;
-
-  &.light-on {
-    background-image: url(/public/bg.jpg);
-  }
-
-  &.light-off {
-    background-image: url(/public/bg\ Dark.jpg);
-  }
+  background-image: url(/public/bg.jpg);
 }
 
 .title {
-  margin: 2rem 0;
+  margin: 1rem 0;
 
   h1 {
     font-size: 2rem;
@@ -30,25 +23,6 @@
     font-weight: 100;
     margin-bottom: 1rem;
     text-align: center;
-  }
-  .btn {
-    height: 2.2rem;
-    font-size: 1rem;
-    margin-bottom: -4rem;
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-    border-radius: 8px;
-    width: 5.2rem;
-    margin-left: 2rem;
-    text-align: center;
-    border: 1px solid rgba(255, 255, 255, 0.795);
-
-    transition: all 1s;
-    color: rgba(255, 255, 255, 0.823);
-    &:hover {
-      background-color: rgba(255, 64, 0, 0.956);
-    }
   }
 }
 
@@ -79,9 +53,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 65vw;
-    height: 600px;
+    width: 60vw;
+    height: auto;
     margin: 2rem;
+    margin-bottom: 3rem;
     padding: 1rem;
     background-color: #93939823;
     backdrop-filter: blur(1px);
@@ -104,9 +79,8 @@
     }
 
     img {
-      width: 600px;
-      height: 350px;
-      border-radius: 20px;
+      width: 750px;
+      height: 400px;
       margin: auto;
       margin-bottom: 1rem;
       display: block;
@@ -131,6 +105,7 @@
       font-size: 1rem;
       display: inline-block;
       margin: auto;
+      margin-bottom: 1rem;
 
       &:hover {
         color: #2ecc71;
@@ -204,6 +179,9 @@
         width: 300px;
         height: 200px;
       }
+      p {
+        font-size: 0.8rem;
+      }
     }
   }
 }
@@ -215,10 +193,6 @@
     .box1 {
       // display: flex;
       // align-items: center;
-
-      button {
-        // display: none;
-      }
 
       .box2 {
         width: 85vw;
@@ -235,7 +209,7 @@
           height: 150px;
         }
         p {
-          font-size: 0.8rem;
+          font-size: 0.6rem;
         }
         a {
           font-size: 1.2rem;
