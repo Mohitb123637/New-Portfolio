@@ -31,12 +31,11 @@ To run this project locally, follow these steps:
 2. Install the dependencies:
    ```bash
    npm install
-. Start the development server::
+3. Start the development server:
    ```bash
    npm run dev
 
-3.
-Contact
+4. Contact:
 Feel free to reach out to me via email:
 
 Email: codewithbhandari@gmail.com
