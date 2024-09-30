@@ -35,6 +35,7 @@ To run this project locally, follow these steps:
    ```bash
    npm run dev
 
+3.
 Contact
 Feel free to reach out to me via email:
 
