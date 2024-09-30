@@ -27,12 +27,21 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Mohitb123637/New-Portfolio
-
-2. Navigate to the project directory:
-   cd MyFolio
-3. Install the dependencies:
+   git clone https://github.com/Mohitb123637/New-Portfolio.git
+2. Install the dependencies:
+   ```bash
    npm install
-
-4. Start the development server:
+. Start the development server::
+   ```bash
    npm run dev
+
+Contact
+Feel free to reach out to me via email:
+
+Email: codewithbhandari@gmail.com
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Thank you for visiting my portfolio! I hope you enjoy exploring my work and projects.
+
+GitHub Repository
