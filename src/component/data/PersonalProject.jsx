@@ -2,6 +2,7 @@ import Intellicon from '../../assets/projects/intellicon.png';
 import VoteAi from '../../assets/projects/Voting.png';
 import bhagwat from '../../assets/projects/bhagwat.png';
 import portfolio from '../../assets/projects/portfolio.png';
+import github from '../../assets/projects/githubp.png';
 
 const PersonalProjects = [
   {
@@ -56,19 +57,20 @@ const PersonalProjects = [
       display: ' hidden group-hover:flex',
     },
   },
-  // {
-  //   // img: Dev_Notes,
-  //   name: 'Dev Notes',
-  //   demo: 'https://dev-notes-793.vercel.app/',
-  //   code: 'https://github.com/dhawal-793/Dev_Notes',
-  //   description:
-  //     'DevNotes is a Simple Notes App Created using MERN Stack with complete user Authentication.',
-  //   style: {
-  //     shadow: 'shadow-[#F8FAFC]',
-  //     cover: 'from-[#F8FAFC]',
-  //     display: ' hidden group-hover:flex',
-  //   },
-  // },
+
+  {
+    img: github,
+    name: 'Github Profile Finder',
+    demo: 'https://dev-notes-793.vercel.app/',
+    code: 'https://steady-travesseiro-7a9754.netlify.app/',
+    description:
+      'GitHub Profile Finder is a simple web application that enables users to find GitHub profiles by entering a username. The app displays key details such as the total number of repositories, followers, and following count, along with the users name, location',
+    style: {
+      shadow: 'shadow-[#F8FAFC]',
+      cover: 'from-[#F8FAFC]',
+      display: ' hidden group-hover:flex',
+    },
+  },
 
   // {
   //   // img: Spam_Detector,
