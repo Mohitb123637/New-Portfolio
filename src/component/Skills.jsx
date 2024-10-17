@@ -30,6 +30,7 @@ const Skills = () => {
                   animateFrom="bottom"
                   delay={1.0}
                 >
+                  {console.log(skill, 'skill')}
                   <Skill skill={skill} />
                 </AnimatedWrapper>
               ))}
