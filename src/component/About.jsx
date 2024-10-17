@@ -18,7 +18,7 @@ const About = () => {
         <div className="flex flex-col  items-center justify-center w-[90vw] lg:w-[70vw] mx-auto my-5">
           {/* Left Section - Image */}
           <div className="flex-1 flex justify-center mb-6 lg:mb-0">
-            <div className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-blue-500 shadow-xl transform transition-transform duration-500 hover:scale-105 my-10">
+            <div className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-blue-500 shadow-xl bg-[#343a46] transform transition-transform duration-500 hover:scale-105 my-10">
               <AnimatedWrapper animateFrom="bottom">
                 <img
                   src="https://img.freepik.com/premium-photo/fashionable-young-man-sketchstyle-vector-illustration_1114005-892.jpg"

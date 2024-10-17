@@ -24,7 +24,7 @@ const Home = () => {
       <div className="container flex flex-col lg:flex-row items-center justify-between w-[90vw] lg:w-[70vw] mx-auto space-y-8 lg:space-y-0">
         {/* Right Section - Image (on desktop) */}
         <div className="flex-1 flex justify-center items-center p-10 order-1 lg:order-2">
-          <div className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-blue-500 shadow-xl transform transition-transform duration-500 hover:scale-105">
+          <div className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-blue-500 bg-[#343a46] shadow-xl transform transition-transform duration-500 hover:scale-105">
             <AnimatedWrapper>
               <img
                 src="https://img.freepik.com/premium-photo/fashionable-young-man-sketchstyle-vector-illustration_1114005-892.jpg"
