@@ -23,7 +23,7 @@ const Skills = () => {
 
         <AnimatedWrapper>
           <div className="py-2 xs:p-4 rounded-lg bg-gray-900">
-            <div className="max-w-[60vw] mx-auto grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4 px-2 xs:px-4 sm:px-0">
+            <div className="max-w-[80vw] py-4 sm:max-w-[60vw] mx-auto grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4  xs:px-4 sm:px-0">
               {mySkills.map((skill) => (
                 <AnimatedWrapper
                   key={skill.name}

@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { useInView, motion, useAnimation } from 'framer-motion';
 
-const AnimatedWrapper = ({ children, delay = 0.5, animateFrom = 'left' }) => {
+const AnimatedWrapper = ({ children, delay = 0.2, animateFrom = 'left' }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const myControls = useAnimation();
