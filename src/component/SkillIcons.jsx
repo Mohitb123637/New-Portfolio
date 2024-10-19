@@ -547,6 +547,44 @@ const DaisyUI = ({ width = 45, height = 45 }) => {
   );
 };
 
+const EmailJS = ({ width = 45, height = 45 }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 64 64"
+      width={width}
+      height={height}
+      fill="none"
+    >
+      <rect width="64" height="64" rx="8" fill="#2D9CDB" />
+      <path
+        d="M48 18H16a2 2 0 0 0-2 2v24a2 2 0 0 0 2 2h32a2 2 0 0 0 2-2V20a2 2 0 0 0-2-2z"
+        fill="white"
+      />
+      <path
+        d="M48 18H16a2 2 0 0 0-2 2v24a2 2 0 0 0 2 2h32a2 2 0 0 0 2-2V20a2 2 0 0 0-2-2z"
+        stroke="#1D4ED8"
+        strokeWidth="2"
+      />
+      <path
+        d="M16 20l16 14L48 20"
+        stroke="#2D9CDB"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <circle cx="32" cy="32" r="8" fill="#FF9800" />
+      <path
+        d="M24 34l8-6 8 6"
+        stroke="white"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+};
+
 export default ReactJs;
 export {
   JS,
@@ -569,4 +607,5 @@ export {
   Netlify,
   Flowbite,
   DaisyUI,
+  EmailJS,
 };
