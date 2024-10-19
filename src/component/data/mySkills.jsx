@@ -19,9 +19,11 @@ import ReactJs, {
   NodeJS,
   FireBase,
   CSS,
+  EmailJS,
 } from '../SkillIcons';
 
 const mySkills = [
+  // Frontend Technologies
   {
     id: 1,
     icon: <HTML />,
@@ -45,7 +47,7 @@ const mySkills = [
   {
     id: 3,
     icon: <JS />,
-    name: 'JS',
+    name: 'JavaScript',
     style: {
       shadow: 'shadow-[#ffda53]',
       cover: 'from-black to-[#ffda53] rounded-b-md',
@@ -54,38 +56,6 @@ const mySkills = [
   },
   {
     id: 4,
-    icon: <Netlify />,
-    name: 'Netlify',
-    style: {
-      shadow: 'shadow-[#3481d3]',
-      cover: 'from-black to-[#3481d3] rounded-b-md',
-      opacity: 'opacity-80',
-    },
-  },
-
-  {
-    id: 5,
-    icon: <MongoDB />,
-    name: 'MongoDB',
-    style: {
-      shadow: 'shadow-[#4FAA41]',
-      cover: 'from-black to-[#4FAA41] rounded-b-md',
-      opacity: 'opacity-80',
-    },
-  },
-  {
-    id: 6,
-    icon: <ExpressJS />,
-    name: 'Express Js',
-    style: {
-      shadow: 'shadow-[#444444]',
-      cover: 'from-black to-[#444444] rounded-b-md',
-      opacity: 'opacity-80',
-    },
-  },
-
-  {
-    id: 7,
     icon: <ReactJs />,
     name: 'React',
     style: {
@@ -94,19 +64,8 @@ const mySkills = [
       opacity: 'opacity-80',
     },
   },
-
   {
-    id: 8,
-    icon: <NodeJS />,
-    name: 'Node Js',
-    style: {
-      shadow: 'shadow-[#83CD27]',
-      cover: 'from-black to-[#83CD27] rounded-b-md',
-      opacity: 'opacity-80',
-    },
-  },
-  {
-    id: 9,
+    id: 5,
     icon: <NextJs />,
     name: 'NextJs',
     style: {
@@ -116,9 +75,9 @@ const mySkills = [
     },
   },
   {
-    id: 10,
+    id: 6,
     icon: <TailwindCSS />,
-    name: 'Tailwind',
+    name: 'TailwindCSS',
     style: {
       shadow: 'shadow-[#3D8FC6]',
       cover: 'from-black to-[#3D8FC6] rounded-b-md',
@@ -126,7 +85,7 @@ const mySkills = [
     },
   },
   {
-    id: 11,
+    id: 7,
     icon: <Bootstrap />,
     name: 'Bootstrap',
     style: {
@@ -136,7 +95,7 @@ const mySkills = [
     },
   },
   {
-    id: 12,
+    id: 8,
     icon: <SASS />,
     name: 'SASS',
     style: {
@@ -146,7 +105,7 @@ const mySkills = [
     },
   },
   {
-    id: 13,
+    id: 9,
     icon: <MaterialUI />,
     name: 'MaterialUI',
     style: {
@@ -156,7 +115,7 @@ const mySkills = [
     },
   },
   {
-    id: 14,
+    id: 10,
     icon: <DaisyUI />,
     name: 'DaisyUI',
     style: {
@@ -165,18 +124,58 @@ const mySkills = [
       opacity: 'opacity-80',
     },
   },
-
   {
-    id: 33,
+    id: 11,
     icon: <Flowbite />,
-    name: 'flowbite',
+    name: 'Flowbite',
     style: {
       shadow: 'shadow-[#004482]',
       cover: 'from-black to-[#004482] rounded-b-md',
       opacity: 'opacity-80',
     },
   },
+  {
+    id: 22,
+    icon: <EmailJS />,
+    name: 'EmailJS',
+    style: {
+      shadow: 'shadow-[#4EB7F5]',
+      cover: 'from-black to-[#4EB7F5] rounded-b-md',
+      opacity: 'opacity-80',
+    },
+  },
 
+  // Backend Technologies
+  {
+    id: 12,
+    icon: <NodeJS />,
+    name: 'Node Js',
+    style: {
+      shadow: 'shadow-[#83CD27]',
+      cover: 'from-black to-[#83CD27] rounded-b-md',
+      opacity: 'opacity-80',
+    },
+  },
+  {
+    id: 13,
+    icon: <ExpressJS />,
+    name: 'Express Js',
+    style: {
+      shadow: 'shadow-[#444444]',
+      cover: 'from-black to-[#444444] rounded-b-md',
+      opacity: 'opacity-80',
+    },
+  },
+  {
+    id: 14,
+    icon: <MongoDB />,
+    name: 'MongoDB',
+    style: {
+      shadow: 'shadow-[#4FAA41]',
+      cover: 'from-black to-[#4FAA41] rounded-b-md',
+      opacity: 'opacity-80',
+    },
+  },
   {
     id: 15,
     icon: <FireBase />,
@@ -187,6 +186,8 @@ const mySkills = [
       opacity: 'opacity-80',
     },
   },
+
+  // Tools
   {
     id: 16,
     icon: <Git />,
@@ -207,9 +208,8 @@ const mySkills = [
       opacity: 'opacity-80',
     },
   },
-
   {
-    id: 25,
+    id: 18,
     icon: <VSCode />,
     name: 'VS Code',
     style: {
@@ -218,9 +218,18 @@ const mySkills = [
       opacity: 'opacity-80',
     },
   },
-
   {
-    id: 28,
+    id: 19,
+    icon: <PostMan />,
+    name: 'PostMan',
+    style: {
+      shadow: 'shadow-[#FF6C37]',
+      cover: 'from-black to-[#FF6C37] rounded-b-md',
+      opacity: 'opacity-80',
+    },
+  },
+  {
+    id: 20,
     icon: <Redux />,
     name: 'Redux',
     style: {
@@ -230,14 +239,15 @@ const mySkills = [
     },
   },
   {
-    id: 29,
-    icon: <PostMan />,
-    name: 'PostMan',
+    id: 21,
+    icon: <Netlify />,
+    name: 'Netlify',
     style: {
-      shadow: 'shadow-[#FF6C37]',
-      cover: 'from-black to-[#FF6C37] rounded-b-md',
+      shadow: 'shadow-[#3481d3]',
+      cover: 'from-black to-[#3481d3] rounded-b-md',
       opacity: 'opacity-80',
     },
   },
 ];
+
 export default mySkills;

@@ -93,9 +93,9 @@ const Contact = () => {
               </AnimatedWrapper>
             )}
           </div>
-          <div className="flex justify-center items-center my-4 p-4 md:p-6">
+          <div className="flex justify-center  items-center my-4 p-8 md:p-6">
             <form
-              className="border border-blue-300 shadow-lg rounded-lg p-12 w-full max-w-md"
+              className="border border-blue-300 shadow-lg rounded-lg p-8 w-full max-w-md"
               onSubmit={handleSubmit}
             >
               <AnimatedWrapper>
