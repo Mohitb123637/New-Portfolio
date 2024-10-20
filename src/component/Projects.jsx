@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div
       name="Projects"
-      className="pt-10 h-full min-h-screen w-full flex items-center bg-gradient-to-b from-black via-gray-950 to-gray-800 text-white"
+      className="pt-10 h-full min-h-screen w-full flex items-center bg-gradient-to-b from-black via-gray-950 to-gray-800 text-white pb-1"
     >
       <div className="container w-[90vw] lg:w-[70vw] mx-auto flex flex-col">
         <AnimatedWrapper>
@@ -22,16 +22,13 @@ const Projects = () => {
         </AnimatedWrapper>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
           {PersonalProjects.map((project, index) => (
-            <AnimatedWrapper
-              key={project.name}
-              animateFrom="bottom"
-              delay={0.8}
-            >
+            <AnimatedWrapper key={project.name} animateFrom="bottom">
               <div
                 key={index}
-                className={`relative p-5 rounded-lg bg-gray-900 overflow-hidden ${project.style.shadow} flex flex-col h-[500px]`} // Set fixed height
+                className={`relative p-3 rounded-lg bg-gray-900 overflow-hidden ${project.style.shadow} flex flex-col h-[500px] `} // Set fixed height
               >
                 {/* Cover Background */}
                 <div

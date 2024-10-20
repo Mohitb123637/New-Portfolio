@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div
       name="Home"
-      className="pt-8 h-full min-h-screen flex items-center justify-center bg-gradient-to-b from-black via-gray-950 to-gray-800"
+      className="pt-10 h-full min-h-screen flex items-center justify-center bg-gradient-to-b from-black via-gray-950 to-gray-800"
     >
       <div className="container flex flex-col lg:flex-row items-center justify-between w-[90vw] lg:w-[70vw] mx-auto space-y-8 lg:space-y-0">
         {/* Right Section - Image (on desktop) */}
