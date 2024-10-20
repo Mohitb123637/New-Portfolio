@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div
       name="About"
-      className="pt-8 h-full min-h-screen bg-gradient-to-b from-gray-800 via-gray-950 to-black "
+      className="pt-10 h-full min-h-screen bg-gradient-to-b from-gray-800 via-gray-950 to-black "
     >
       <div className="container w-[90vw] lg:w-[70vw] mx-auto lex flex-col  ">
         <AnimatedWrapper>
