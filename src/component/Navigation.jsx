@@ -38,7 +38,7 @@ const Navigation = ({ ulClass, liClass, handleClick }) => {
                 {link}
               </a>
             ) : (
-              <Link onClick={handleClick} to={link} smooth duration={500}>
+              <Link onClick={handleClick} to={link} smooth duration={100}>
                 {' '}
                 {link}
               </Link>
