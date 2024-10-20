@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div
       name="Projects"
-      className="pt-10 h-full min-h-screen w-full flex items-center bg-gradient-to-b from-black via-gray-950 to-gray-800 text-white pb-1"
+      className="pt-10 h-full min-h-screen w-full flex items-center bg-gradient-to-b from-black via-gray-950 to-gray-800 text-white pb-3"
     >
       <div className="container w-[90vw] lg:w-[70vw] mx-auto flex flex-col">
         <AnimatedWrapper>
@@ -28,7 +28,7 @@ const Projects = () => {
             <AnimatedWrapper key={project.name} animateFrom="bottom">
               <div
                 key={index}
-                className={`relative p-3 rounded-lg bg-gray-900 overflow-hidden ${project.style.shadow} flex flex-col h-[500px] `} // Set fixed height
+                className={`relative p-2 sm:p-3 rounded-lg bg-gray-900 overflow-hidden ${project.style.shadow} flex flex-col h-[500px] w-[90%] sm:w-[85%] md:w-[80%] lg:w-full mx-auto`}
               >
                 {/* Cover Background */}
                 <div
