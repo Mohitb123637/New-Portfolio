@@ -61,8 +61,8 @@ const PersonalProjects = [
   {
     img: github,
     name: 'Github Profile Finder',
-    demo: 'https://dev-notes-793.vercel.app/',
-    code: 'https://steady-travesseiro-7a9754.netlify.app/',
+    demo: 'https://app.netlify.com/sites/steady-travesseiro-7a9754/overview',
+    code: 'https://github.com/Mohitb123637/gitHubProfileDetails',
     description:
       'GitHub Profile Finder is a simple web application that enables users to find GitHub profiles by entering a username. The app displays key details such as the total number of repositories, followers, and following count, along with the users name, location',
     style: {
