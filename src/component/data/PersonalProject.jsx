@@ -47,7 +47,7 @@ const PersonalProjects = [
   {
     img: portfolio,
     name: 'MyFolio',
-    demo: 'https://mohitb12363.netlify.app/',
+    demo: 'https://steady-travesseiro-7a9754.netlify.app/',
     code: 'https://github.com/Mohitb123637/New-Portfolio',
     description:
       'MyFolio: A personal portfolio built with React, Vite, Tailwind CSS, Framer Motion, and Flowbite, featuring dynamic animations and smooth UI transitions. The contact form is powered by EmailJS for seamless communication.',
