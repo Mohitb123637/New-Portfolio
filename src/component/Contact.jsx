@@ -51,7 +51,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="pt-10 h-full min-h-screen w-full flex items-center bg-gradient-to-b from-black via-gray-950 to-gray-800 text-white">
+    <div
+      name="Contact"
+      className="pt-10 h-full min-h-screen w-full flex items-center bg-gradient-to-b from-black via-gray-950 to-gray-800 text-white"
+    >
       <div className="container w-[90vw] lg:w-[70vw] mx-auto flex flex-col">
         {toast.show && (
           <Toast
