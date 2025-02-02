@@ -11,7 +11,7 @@ const Projects = () => {
     >
       <div className="container w-[90vw] lg:w-[70vw] mx-auto flex flex-col">
         <AnimatedWrapper>
-          <h1 className="text-3xl lg:text-5xl font-bold text-gray-200 my-4 underline">
+          <h1 className="text-3xl lg:text-5xl font-bold text-gray-200 my-4 underline decoration-blue-400">
             Projects
           </h1>
         </AnimatedWrapper>
@@ -22,33 +22,35 @@ const Projects = () => {
         </AnimatedWrapper>
 
         {/* Projects Grid */}
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {PersonalProjects.map((project, index) => (
             <AnimatedWrapper key={project.name} animateFrom="bottom">
               <div
                 key={index}
-                className={`relative p-2 sm:p-3 rounded-lg bg-gray-900 overflow-hidden ${project.style.shadow} flex flex-col h-[500px] w-[90%] sm:w-[85%] md:w-[80%] lg:w-full mx-auto`}
+                className={`relative p-4 rounded-lg bg-gray-900 overflow-hidden ${project.style.shadow} flex flex-col h-[400px] w-[90%] sm:w-[85%] md:w-[80%] lg:w-full mx-auto transition-all duration-300 border-2 border-gray-800 hover:border-blue-400 hover:shadow-[0px_0px_20px_rgba(0,255,255,0.3)]`}
               >
                 {/* Cover Background */}
                 <div
                   className={`absolute inset-0 bg-gradient-to-b ${project.style.cover} opacity-50`}
                 ></div>
 
-                {/* Image with fixed height */}
-                <img
-                  src={project.img}
-                  alt={project.name}
-                  className="w-full h-40 object-cover rounded-lg mb-4 z-10" // Fixed image height
-                />
+                {/* Image with fixed height and overlay */}
+                <div className="relative w-full h-40 rounded-lg mb-4 overflow-hidden">
+                  <img
+                    src={project.img}
+                    alt={project.name}
+                    className="w-full h-full object-cover z-10"
+                  />
+                  <div className="absolute inset-0 bg-black opacity-30 z-20"></div>
+                </div>
 
                 {/* Project Title */}
-                <h3 className="text-xl lg:text-2xl font-semibold z-10">
+                <h3 className="text-xl lg:text-2xl font-semibold z-10 text-blue-300">
                   {project.name}
                 </h3>
 
                 {/* Project Description */}
-                <p className="mt-2 mb-4 z-10 flex-grow overflow-hidden text-ellipsis line-clamp-3 overflow-y-auto ">
+                <p className="mt-2 mb-4 z-10 flex-grow overflow-hidden text-ellipsis line-clamp-3 overflow-y-auto text-gray-300">
                   {project.description}
                 </p>
 
@@ -58,9 +60,9 @@ const Projects = () => {
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-blue-400 hover:text-blue-500 hover:scale-105 transition-all duration-300"
+                    className="flex items-center gap-2 text-blue-400 hover:text-blue-500 transition-all duration-300"
                   >
-                    <span className="transform hover:rotate-12 transition-transform duration-300">
+                    <span className="transition-transform duration-300 hover:scale-110">
                       <Link />
                     </span>
                     <span className="bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent font-semibold">
@@ -71,9 +73,9 @@ const Projects = () => {
                     href={project.code}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-blue-400 hover:text-blue-500 hover:scale-105 transition-all duration-300"
+                    className="flex items-center gap-2 text-blue-400 hover:text-blue-500 transition-all duration-300"
                   >
-                    <span className="transform hover:rotate-12 transition-transform duration-300">
+                    <span className="transition-transform duration-300 hover:scale-110">
                       <Code />
                     </span>
                     <span className="bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent font-semibold">
