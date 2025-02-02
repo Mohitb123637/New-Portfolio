@@ -11,8 +11,6 @@
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
-    "flowbite": "^2.5.2",
-    "flowbite-react": "^0.10.1",
     "framer-motion": "^11.9.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
